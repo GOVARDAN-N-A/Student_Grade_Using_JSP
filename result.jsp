@@ -19,6 +19,7 @@
             double average= totalMarks / 5.0; %>
 
                 <h2>Result Summary</h2>
+                <h3 class="stud_name">Student Name : <%= name  %></h3>
                 <table>
                     <tr>
                         <th>Subject</th>

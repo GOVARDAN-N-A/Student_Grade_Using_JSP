@@ -4,12 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-h2{
-    margin-top: 20px;
-    font-size: 3rem;
-    color: #fc0000;
-    text-align: center;
-}
+
 
 .container {
     max-width: 600px;
@@ -19,7 +14,11 @@ h2{
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
+.container h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(21, 208, 214);
+}
 form {
     display: flex;
     flex-direction: column;
@@ -49,11 +48,18 @@ input[type="submit"]:hover {
 }
 
 .result-container{
-    margin: 80px;
+    margin: 80px 0px 10px 0px;
 }
 .result-container table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.result-container h2{
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #fc0000;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -72,6 +78,11 @@ input[type="submit"]:hover {
     color: rgb(16, 96, 66);
   
     
+}
+.stud_name{
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
 }
 
 .pass {
