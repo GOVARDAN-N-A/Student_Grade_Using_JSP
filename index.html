@@ -1,0 +1,36 @@
+<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marks</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Student Information</h2>
+        <form action="result.jsp" method="get">
+            <label for="name" pattern="[A-Za-z.]">Enter Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="cd">Enter Marks for Subject 1:</label>
+            <input type="number" name="cd" required max="100">
+
+            <label for="dc">Enter Marks for Subject 2:</label>
+            <input type="number" name="dc" required max="100">
+
+            <label for="cn">Enter Marks for Subject 3:</label>
+            <input type="number" name="cn" required max="100">
+
+            <label for="wt">Enter Marks for Subject 4:</label>
+            <input type="number" name="wt" required max="100">
+
+            <label for="ccs">Enter Marks for Subject 5:</label>
+            <input type="number" name="ccs" required max="100">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
