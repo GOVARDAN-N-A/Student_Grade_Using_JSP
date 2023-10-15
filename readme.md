@@ -5,6 +5,7 @@ This web application calculates the result and grade based on the marks entered 
 ## Screenshots
 
 ### Student Information Page
+
 ![Student Information Page]("../../static/images/info.png")
 
 ### Result Page
