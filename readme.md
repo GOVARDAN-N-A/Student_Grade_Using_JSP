@@ -5,10 +5,10 @@ This web application calculates the result and grade based on the marks entered 
 ## Screenshots
 
 ### Student Information Page
-![Student Information Page](../../static/images/info.png)
+![Student Information Page]("../../static/images/info.png")
 
 ### Result Page
-![Result Page](../../static/images/result.png)
+![Result Page]("../../static/images/result.png")
 
 ## How to Use
 
